@@ -79,7 +79,7 @@ h3 {
   font-style: italic;
 }
 
-#yesChoice button {
+#yesChoice button, .realQuiz button {
   margin-top: 20px;
 }
 
@@ -87,4 +87,11 @@ h3 {
   font-weight: bold;
   text-decoration: underline;
   cursor: progress;
+}
+
+h5 {
+  margin-top: 10px;
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
