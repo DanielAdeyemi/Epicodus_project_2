@@ -6,9 +6,10 @@ $(document).ready(function() {
   });
   $("form.name").submit(function() {
     event.preventDefault();
-    let name = $("#name").val();
+    const name = $("#name").val();
+    $(".userName").text(name);
+
     $(".info").hide();
     $(".questions").show();
-    alert(name);
   });
 });

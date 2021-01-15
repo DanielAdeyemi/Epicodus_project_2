@@ -2,6 +2,17 @@
   display: none;
 }
 
+.one {
+  display: inline;
+}
+
+.one>img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
 .info>img {
   width: 500px;
   float: left;
