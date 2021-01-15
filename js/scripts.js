@@ -25,7 +25,20 @@ $(document).ready(function() {
   $("form#yesChoice").submit(function() {
     event.preventDefault();
     let language = $("#choices").val();
-    $("#outcome").text(language);
+    if (language === "Other") {
+      $("form#yesChoice").hide();
+      $("form#other").show();
+
+    } else {
+      $("#outcome").text(language);
+      $(".survey").hide();
+      $(".result").show();
+    }
+  })
+  $("form#other").submit(function() {
+    event.preventDefault();
+    let other = $("#languageInput").val();
+    $("#outcome").text(other);
     $(".survey").hide();
     $(".result").show();
   })

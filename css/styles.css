@@ -1,4 +1,4 @@
-.info, .questions, .result, #openChoice, #quiz {
+.info, .questions, .result, #openChoice, #quiz, #other {
   display: none;
 }
 
