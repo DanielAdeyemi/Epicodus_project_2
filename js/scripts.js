@@ -11,9 +11,15 @@ $(document).ready(function() {
     $(".info").hide();
     $(".questions").show();
   });
-  $("form.firstSet").submit(function() {
+  $("form#firstSet").submit(function() {
     event.preventDefault();
     let answerOne = $("input:radio[name=firstSet]:checked").val();
-    alert(answerOne);
-  })
+    if (answerOne === "yes") {
+      $("#firstSet").hide();
+      $("#openChoice").show();
+    } else {
+      $("#firstSet").hide();
+      $("#quiz").show();
+    }
+  });
 });
