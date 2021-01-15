@@ -22,4 +22,11 @@ $(document).ready(function() {
       $("#quiz").show();
     }
   });
+  $("form#yesChoice").submit(function() {
+    event.preventDefault();
+    let language = $("#choices").val();
+    $("#outcome").text(language);
+    $(".survey").hide();
+    $(".result").show();
+  })
 });

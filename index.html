@@ -60,7 +60,18 @@
         <div id="openChoice">
           Yes
           <form id="yesChoice">
-
+            <select id="choices" class="form-select">
+              <option value="none" disabled selected>Select your language</option>
+              <option value="Ruby">Ruby</option>
+              <option value="C#">C#</option>
+              <option value="JavaScript">JavaScript</option>
+              <option value="Go">Go</option>
+              <option value="Python">Python</option>
+              <option value="Rust">Rust</option>
+              <option value="Swift">Swift</option>
+              <option value="Other">Other</option>
+            </select>
+            <button class="btn btn-primary" type="submit">See result</button>
           </form>
         </div>
         <div id="quiz">
@@ -69,7 +80,14 @@
       </div>
     </div>
     <div class="result">
-      Output will be here
+      <img src="img/finish.jpg" alt="language selected">
+      <div class="alert alert-success" role="alert">
+        <p><span class="userName"></span>, you were born for IT career!</p>
+        <p>The language we would recommend for you is <strong><span id="outcome"></span>!</strong></p>
+      </div>
+      <div class="alert alert-secondary" role="alert">
+        Please, consider to check <a href="https://www.epicodus.com" class="alert-link">Epicodus</a> for great advices!
+      </div>
     </div>
   </div>
 </body>
