@@ -1,3 +1,20 @@
 .info, .questions, .result {
   display: none;
 }
+
+.info>img {
+  width: 500px;
+  float: left;
+}
+
+h3 {
+  margin: 30px 0 30px 0;
+  text-align: center;
+}
+
+.info>p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
