@@ -2,10 +2,17 @@ function languageGenerator(input1, input2, input3, input4) {
   let sum = input1 + input2 + input3 + input4;
   if (sum === 0) {
     return "C++";
+  } else if (sum < 10) {
+    return "C#";
+  } else if (sum <= 14) {
+    return "Ruby";
+  } else if (sum <= 20) {
+    return "JavaScript";
+  } else if (sum <= 30) {
+    return "Go";
   } else {
     return "Python";
   }
-
 }
 
 $(document).ready(function() {
