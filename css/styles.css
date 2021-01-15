@@ -2,10 +2,6 @@
   display: none;
 }
 
-.one {
-  display: inline;
-}
-
 .one>img {
   display: block;
   margin-left: auto;
@@ -16,6 +12,17 @@
 .info>img {
   width: 500px;
   float: left;
+}
+
+.questions>img {
+  width: 700px;
+  float: left;
+  margin-right: 30px;
+}
+
+#intro {
+  text-align: center;
+  font-size: 28px;
 }
 
 h3 {

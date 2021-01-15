@@ -8,8 +8,12 @@ $(document).ready(function() {
     event.preventDefault();
     const name = $("#name").val();
     $(".userName").text(name);
-
     $(".info").hide();
     $(".questions").show();
   });
+  $("form.firstSet").submit(function() {
+    event.preventDefault();
+    let answerOne = $("input:radio[name=firstSet]:checked").val();
+    alert(answerOne);
+  })
 });
