@@ -3,7 +3,16 @@
 #### *by* ***Daniel Adeyemi*** *(01/15/2021)*
 * * *
 ## *Description:*   
-This project conclude my second week at Epicodus as a full-time student. **The goal** of the project is to build an application to suggest user what language he/she needs to consider as starting point in their study. This application asks user series of questions and provides a language suggestion based on the answers.   
+This project conclude my second week at Epicodus as a full-time student. **The goal** of the project is to build an application to suggest user what language he/she needs to consider as starting point in their study. This application asks user series of questions and provides a language suggestion based on the answers. As options for languges:
+* C++
+* Ruby
+* JavaScript
+* Go
+* Python
+* C#
+* Rust
+* Swift
+* and also language of user's choice  
 *(Please note, that this is not scientificly-based application and was build only as demonstration of certain skills I obtained in the program. Any suggestions you recieve cannot be used as determination of your future!)*
 
 ## *Setup instructions:*
@@ -11,7 +20,7 @@ This project conclude my second week at Epicodus as a full-time student. **The g
 * If you want to see any specific part of my code, go to ***index.html*** or ***any folder/file you find interesting***
 * If you want just open my web-page in your browser, execute **open index.html** command in your terminal.    
 *Note: please, make sure that you are inside project directory!*
-* If you just want to check my page without open your editor/ terminal - click on this [GitHub page](https://danieladeyemi.github.io/Epicodus-project-1/) link
+* If you just want to check my page without open your editor/ terminal - click on this [GitHub page](https://danieladeyemi.github.io/Epicodus_project_2/) link
 
 ## *Technologies used:*
 * HTML
