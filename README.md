@@ -27,7 +27,7 @@ This project conclude my second week at Epicodus as a full-time student. **The g
 * CSS 
 * Bootstrap *v5.0.0.beta1*
 * JavaScript
-*jQuery
+* jQuery
 * Git and GitHub
 
 ## *Known bugs and contact information:*
