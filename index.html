@@ -57,8 +57,7 @@
         <div id="openChoice">
 
           <form id="yesChoice">
-            <select id="choices" class="form-select">
-              <option value="none" disabled selected>Select your language</option>
+            <select id="choices" class="form-select" required>
               <option value="Ruby">Ruby</option>
               <option value="C#">C#</option>
               <option value="JavaScript">JavaScript</option>
@@ -199,6 +198,7 @@
       </div>
     </div>
     <div class="result">
+      <button type="reset" value="Reset" onClick="window.location.reload()" class="btn btn-outline-success">Try again</button>
       <img src="img/finish.jpg" alt="language selected">
       <div class="alert alert-success" role="alert">
         <p><span class="userName"></span>, you were born for IT career!</p>
