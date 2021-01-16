@@ -83,7 +83,7 @@ h3 {
   margin-top: 20px;
 }
 
-#yesChoice button:hover, #other button:hover {
+#yesChoice button:hover, #other button:hover, .realQuiz button:hover {
   font-weight: bold;
   text-decoration: underline;
   cursor: progress;
@@ -94,4 +94,26 @@ h5 {
   font-style: italic;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
+}
+
+.result>img {
+  display: block;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.alert {
+  display: block;
+  text-align: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.alert-success {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
 }
