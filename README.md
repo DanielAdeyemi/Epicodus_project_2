@@ -16,11 +16,19 @@ This project conclude my second week at Epicodus as a full-time student. **The g
 *(Please note, that this is not scientificly-based application and was build only as demonstration of certain skills I obtained in the program. Any suggestions you recieve cannot be used as determination of your future!)*
 
 ## *Setup instructions:*
-* Clone my repository from GitHub, using following [URL](https://github.com/DanielAdeyemi/Epicodus_project_2.git)
-* If you want to see any specific part of my code, go to ***index.html*** or ***any folder/file you find interesting***
-* If you want just open my web-page in your browser, execute **open index.html** command in your terminal.    
+#### From the web:
+* Go to my GitHub repository, using following [URL](https://github.com/DanielAdeyemi/Epicodus_project_2.git).
+* Click the "Code" and click the 'Download zip' option.
+* Unzip the file, navigate to the root directory (project2 folder).
+* open ***'index.html'*** file with your web browser.
+#### From the terminal: 
+* Clone my repository from GitHub using `git clone https://github.com/DanielAdeyemi/Epicodus_project_2.git`
+* Navigate to the downloaded folder using ***cd*** command
+* Execute **code .** command in your terminal and it will open all source code in your code editor.    
 *Note: please, make sure that you are inside project directory!*
-* If you just want to check my page without open your editor/ terminal - click on this [GitHub page](https://danieladeyemi.github.io/Epicodus_project_2/) link
+#### GitHub pages:
+* If you just want to check my page without open your editor/ terminal - click on this [GitHub page link](https://danieladeyemi.github.io/Epicodus_project_2/)
+
 
 ## *Technologies used:*
 * HTML
